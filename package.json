@@ -1,0 +1,14 @@
+{
+  "name": "pflueger",
+  "version": "0.0.1",
+  "description": "bot template",
+  "main": "index.js",
+  "repository": "https://github.com/lawsmat/pflueger.git",
+  "author": "MoonBarc <no@lawsmat.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  }
+}
