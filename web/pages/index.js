@@ -5,32 +5,21 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pfleuger App</title>
+        <title>Pflueger App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://github.com/lawsmat/pfluger">Pflueger</a>!
         </h1>
 
         <p className={styles.description}>
-          Welcome to your Pfleuger App! Modify the 
+          Welcome to your Pflueger App! Modify the 
           <code className={styles.code}>web/pages/index.js</code>
            file to edit this landing page.
         </p>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }

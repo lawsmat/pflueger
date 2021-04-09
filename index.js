@@ -4,6 +4,7 @@ const path = require("path")
 const client = new Discord.Client({
     disableMentions: "everyone" // no @everyone ping exploits!
 })
+require("dotenv").config()
 
 // register commands
 fs.readdir(path.join(__dirname, "commands")).then((files) => {
@@ -19,3 +20,5 @@ fs.readdir(path.join(__dirname, "commands")).then((files) => {
         }
     })
 })
+
+client.login(process.env.TOKEN)
