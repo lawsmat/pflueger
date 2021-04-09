@@ -9,15 +9,13 @@
   "private": false,
   "scripts": {
     "dev": "concurrently \"node index.js\" \"yarn --cwd web dev\"",
-    "ginstall": "yarn && yarn --cwd web",
-    "pflueger:upgrade": "upgrade-template https://github.com/lawsmat/pflueger"
+    "ginstall": "yarn && yarn --cwd web"
   },
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "concurrently": "^6.0.1",
-    "update-template": "^1.3.1"
+    "concurrently": "^6.0.1"
   }
 }
