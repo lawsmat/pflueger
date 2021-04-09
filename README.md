@@ -1,2 +1,4 @@
 # pflueger
- public bot template
+ public bot template.
+ 
+ fork it to create your own!
