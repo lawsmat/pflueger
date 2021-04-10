@@ -1,0 +1,11 @@
+{
+    "! note !": "This is the global admin config. It is not meant to be used by the end user!",
+    "name": "Generic Pfleuger Bot",
+    "web": {
+        "scopes": [
+            "email",
+            "identify",
+            "guilds"
+        ]
+    }
+}

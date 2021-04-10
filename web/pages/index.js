@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pflueger App</title>
+        <title>{process.env.NEXT_PUBLIC_APP_NAME}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/lawsmat/pfluger">Pflueger</a>!
+          Welcome to <a href="https://github.com/lawsmat/pflueger">Pflueger</a>!
         </h1>
 
         <p className={styles.description}>

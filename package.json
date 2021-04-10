@@ -9,7 +9,8 @@
   "private": false,
   "scripts": {
     "dev": "concurrently \"node index.js\" \"yarn --cwd web dev\"",
-    "ginstall": "yarn && yarn --cwd web"
+    "ginstall": "yarn && yarn --cwd web",
+    "botdev": "node index.js"
   },
   "dependencies": {
     "discord.js": "^12.5.3",

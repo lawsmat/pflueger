@@ -1,11 +1,10 @@
 {
     "! note !": "This is the global admin config. It is not meant to be used by the end user!",
     "name": "Generic Pfleuger Bot",
-    "web": {
-        "scopes": [
-            "email",
-            "identify",
-            "guilds"
-        ]
+    "roleGuild": "794579109815648276",
+    "adminRoles": ["owner", "dev"],
+    "roles": {
+        "owner": "794729418551066624",
+        "dev": "830408821959819264"
     }
 }
