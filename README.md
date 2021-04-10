@@ -1,4 +1,4 @@
 # pflueger
  public bot template.
  
- fork it to create your own!
+generate a template to make your own slash commandable bot!
